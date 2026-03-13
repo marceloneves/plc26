@@ -54,7 +54,7 @@ const HeroSection = () => {
 
           <p className="text-muted-foreground text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
             O maior evento de liderança em produto da América Latina. 
-            Dois dias de conteúdo, networking e inspiração.
+            Um dia inteiro de conteúdo, networking e inspiração.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12 text-muted-foreground">
