@@ -1,4 +1,5 @@
 import HeroSection from "@/components/HeroSection";
+import BenefitsSection from "@/components/BenefitsSection";
 import SpeakersSection from "@/components/SpeakersSection";
 import AgendaSection from "@/components/AgendaSection";
 import CTASection from "@/components/CTASection";
