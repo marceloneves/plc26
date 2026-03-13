@@ -60,7 +60,7 @@ const HeroSection = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12 text-muted-foreground">
             <div className="flex items-center gap-2">
               <CalendarDays className="w-5 h-5 text-primary" />
-              <span className="font-display font-medium">18–19 Set, 2026</span>
+              <span className="font-display font-medium">4 de Setembro, 2026</span>
             </div>
             <span className="hidden sm:block w-1 h-1 rounded-full bg-muted-foreground" />
             <div className="flex items-center gap-2">
