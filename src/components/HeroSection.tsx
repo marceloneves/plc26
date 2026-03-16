@@ -39,7 +39,7 @@ const HeroSection = () => {
           </div>
 
           {/* Title */}
-          <h1 className="font-display text-5xl md:text-7xl lg:text-9xl font-bold tracking-tight leading-[0.9]">
+          <h1 className="font-display text-4xl md:text-5xl lg:text-7xl font-bold tracking-tight leading-[0.9]">
             PRODUCT<br />
             <span className="text-gradient-gold">LEADERSHIP</span><br />
             CONFERENCE 2026
