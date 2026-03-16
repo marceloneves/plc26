@@ -7,10 +7,12 @@ import ForWhoSection from "@/components/ForWhoSection";
 import CTASection from "@/components/CTASection";
 import FAQSection from "@/components/FAQSection";
 import FooterSection from "@/components/FooterSection";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
+      <WhatsAppButton />
       <AnnouncementBar />
       <HeroSection />
       <BenefitsSection />
