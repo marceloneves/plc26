@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
 
 const speakers = [
-  { name: "Ana Ribeiro", role: "VP of Product", company: "Nubank", initials: "AR" },
-  { name: "Carlos Mendes", role: "CPO", company: "iFood", initials: "CM" },
-  { name: "Juliana Torres", role: "Head of Product", company: "Mercado Livre", initials: "JT" },
-  { name: "Rafael Costa", role: "Director of PM", company: "VTEX", initials: "RC" },
-  { name: "Marina Silva", role: "SVP Product", company: "Globo", initials: "MS" },
-  { name: "Pedro Almeida", role: "CPO", company: "Loft", initials: "PA" },
+  { name: "Ana Ribeiro", role: "VP of Product", company: "Nubank", city: "São Paulo, SP", topic: "Keynote: Liderança em produto na era da IA", initials: "AR" },
+  { name: "Carlos Mendes", role: "CPO", company: "iFood", city: "Osasco, SP", topic: "Product-Led Growth em escala", initials: "CM" },
+  { name: "Juliana Torres", role: "Head of Product", company: "Mercado Livre", city: "São Paulo, SP", topic: "Discovery que gera impacto real", initials: "JT" },
+  { name: "Rafael Costa", role: "Director of PM", company: "VTEX", city: "Rio de Janeiro, RJ", topic: "AI-First Product Strategy", initials: "RC" },
+  { name: "Marina Silva", role: "SVP Product", company: "Globo", city: "Rio de Janeiro, RJ", topic: "De métricas de vaidade a impacto real", initials: "MS" },
+  { name: "Pedro Almeida", role: "CPO", company: "Loft", city: "São Paulo, SP", topic: "De PM a CPO: carreira em produto", initials: "PA" },
 ];
 
 const SpeakersSection = () => {
@@ -18,14 +18,10 @@ const SpeakersSection = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="mb-16"
+          className="text-center mb-16"
         >
-          <span className="text-primary font-display text-sm font-semibold tracking-widest uppercase mb-4 block">
-            Speakers
-          </span>
-          <h2 className="font-display text-4xl md:text-5xl font-bold tracking-tight">
-            Quem estará<br />
-            <span className="text-gradient-gold">no palco</span>
+          <h2 className="font-display text-4xl md:text-6xl font-bold tracking-tight">
+            Quem Estará <span className="text-gradient-gold">No Palco</span>
           </h2>
         </motion.div>
 
@@ -36,22 +32,23 @@ const SpeakersSection = () => {
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: i * 0.1 }}
-              className="group p-6 rounded-xl bg-card border border-border hover:border-primary/30 transition-all duration-300"
+              transition={{ duration: 0.5, delay: i * 0.08 }}
+              className="group p-6 rounded-2xl bg-card border border-border hover:border-primary/30 transition-all duration-300"
             >
-              <div className="w-16 h-16 rounded-full bg-gradient-gold flex items-center justify-center mb-5">
-                <span className="font-display font-bold text-lg text-primary-foreground">
+              <div className="w-20 h-20 rounded-2xl bg-gradient-gold flex items-center justify-center mb-5">
+                <span className="font-display font-bold text-2xl text-primary-foreground">
                   {speaker.initials}
                 </span>
               </div>
-              <h3 className="font-display text-xl font-semibold text-foreground mb-1">
+              <h3 className="font-display text-xl font-bold text-foreground mb-0.5">
                 {speaker.name}
               </h3>
-              <p className="text-muted-foreground text-sm">
-                {speaker.role}
+              <p className="text-xs text-muted-foreground mb-3">{speaker.city}</p>
+              <p className="text-primary font-display font-semibold text-sm mb-1">
+                {speaker.role}, {speaker.company}
               </p>
-              <p className="text-primary font-display font-medium text-sm mt-1">
-                {speaker.company}
+              <p className="text-muted-foreground text-sm mt-3 pt-3 border-t border-border">
+                {speaker.topic}
               </p>
             </motion.div>
           ))}
