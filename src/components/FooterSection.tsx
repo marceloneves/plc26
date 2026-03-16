@@ -1,11 +1,11 @@
 const FooterSection = () => {
   return (
-    <footer className="border-t border-border py-12">
+    <footer className="border-t border-border py-12 bg-card/30">
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
-            <span className="font-display text-lg font-bold text-foreground">
-              PLC<span className="text-primary">'26</span>
+            <span className="font-display text-2xl font-bold text-foreground">
+              PLC<span className="text-gradient-gold">'26</span>
             </span>
             <p className="text-sm text-muted-foreground mt-1">Product Leadership Conference</p>
           </div>
