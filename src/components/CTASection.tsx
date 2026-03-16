@@ -53,20 +53,15 @@ const CTASection = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.4, delay: 0.1 }}
-            className="p-6 rounded-2xl bg-card border border-border"
+            className="p-6 rounded-2xl bg-card border border-border opacity-60"
           >
-            <h3 className="font-display text-sm font-bold text-accent uppercase tracking-wider mb-2">Até 30/Mai</h3>
+            <h3 className="font-display text-sm font-bold text-muted-foreground uppercase tracking-wider mb-2">Até 30/Mai</h3>
             <p className="text-xs text-muted-foreground mb-3">Presencial</p>
             <div className="text-4xl font-display font-bold text-foreground mb-1">R$ 447</div>
             <p className="text-xs text-muted-foreground mb-5">Até 30 de maio de 2026</p>
-            <Button variant="outline" className="w-full border-accent/30 text-foreground font-display font-semibold hover:bg-accent/10">
-              COMPRAR AGORA <ArrowRight className="w-4 h-4 ml-1" />
+            <Button variant="outline" className="w-full font-display font-semibold" disabled>
+              EM BREVE
             </Button>
-            <ul className="mt-4 space-y-2 text-xs text-muted-foreground">
-              <li>• Um dia inteiro de conteúdo</li>
-              <li>• Networking estratégico presencial</li>
-              <li>• Certificado de participação</li>
-            </ul>
           </motion.div>
 
           {/* Jun a Jul */}
