@@ -63,6 +63,7 @@ const HeroSection = () => {
             <Button
               size="lg"
               className="bg-gradient-gold text-primary-foreground font-display font-bold text-lg px-10 py-6 glow-gold hover:opacity-90 transition-opacity"
+              onClick={() => document.getElementById('register')?.scrollIntoView({ behavior: 'smooth' })}
             >
               QUERO GARANTIR MINHA VAGA
             </Button>
