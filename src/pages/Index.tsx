@@ -6,6 +6,7 @@ import SpeakersSection from "@/components/SpeakersSection";
 import ForWhoSection from "@/components/ForWhoSection";
 import CTASection from "@/components/CTASection";
 import FAQSection from "@/components/FAQSection";
+import ContactSection from "@/components/ContactSection";
 import FooterSection from "@/components/FooterSection";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
