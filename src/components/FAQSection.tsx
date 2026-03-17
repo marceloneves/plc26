@@ -9,7 +9,7 @@ import {
 const faqs = [
   {
     question: "O evento é presencial?",
-    answer: "Sim. O PLC'26 é presencial em São Paulo – SP, projetado para imersão total e networking de alto nível. Também teremos opção de streaming para quem não puder comparecer.",
+    answer: "Sim. O PLC'26 é 100% presencial em São Paulo – SP, projetado para imersão total e networking de alto nível. Não haverá transmissão por streaming.",
   },
   {
     question: "Preciso ser líder de produto para participar?",
@@ -18,6 +18,14 @@ const faqs = [
   {
     question: "Vou sair com algo prático?",
     answer: "Sim. O objetivo é entregar frameworks, cases e conexões que você pode aplicar imediatamente na sua operação de produto.",
+  },
+  {
+    question: "Quais são as formas de pagamento?",
+    answer: "Aceitamos cartão de crédito (com possibilidade de parcelamento), PIX e boleto bancário. Após a confirmação do pagamento, você receberá o ingresso por e-mail.",
+  },
+  {
+    question: "Existe algum desconto especial para compras em grupo?",
+    answer: "Sim! Oferecemos desconto para grupos a partir de 3 pessoas da mesma empresa. Esse benefício não se aplica aos 30 primeiros ingressos promocionais. Entre em contato pelo e-mail contato@plconf.com para saber mais.",
   },
   {
     question: "Como recebo meu ingresso?",
