@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const FooterSection = () => {
   return (
     <footer className="border-t border-border py-12 bg-card/30">
@@ -10,9 +12,9 @@ const FooterSection = () => {
             <p className="text-sm text-muted-foreground mt-1">Product Leadership Conference</p>
           </div>
           <div className="flex items-center gap-6 text-sm text-muted-foreground">
-            <a href="#" className="hover:text-foreground transition-colors">Código de Conduta</a>
-            <a href="#" className="hover:text-foreground transition-colors">Contato</a>
-            <a href="#" className="hover:text-foreground transition-colors">Privacidade</a>
+            <Link to="/codigo-de-conduta" className="hover:text-foreground transition-colors">Código de Conduta</Link>
+            <a href="#contato" className="hover:text-foreground transition-colors">Contato</a>
+            <Link to="/privacidade" className="hover:text-foreground transition-colors">Privacidade</Link>
           </div>
           <p className="text-xs text-muted-foreground">© 2026 PLC. Todos os direitos reservados.</p>
         </div>
