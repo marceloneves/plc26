@@ -66,8 +66,8 @@ const CodigoDeConduta = () => {
               Se você for vítima ou testemunhar comportamento inaceitável, ou tiver qualquer outra
               preocupação, por favor entre em contato com a organização o mais rápido possível pelo
               e-mail{" "}
-              <a href="mailto:contato@plconf.com.br" className="text-primary hover:underline">
-                contato@plconf.com.br
+              <a href="mailto:contato@plconf.com" className="text-primary hover:underline">
+                contato@plconf.com
               </a>.
             </p>
           </section>
