@@ -62,8 +62,8 @@ const Privacidade = () => {
               De acordo com a Lei Geral de Proteção de Dados (LGPD), você tem o direito de acessar,
               corrigir, excluir ou portar seus dados pessoais. Para exercer esses direitos, entre em
               contato pelo e-mail{" "}
-              <a href="mailto:contato@plconf.com.br" className="text-primary hover:underline">
-                contato@plconf.com.br
+              <a href="mailto:contato@plconf.com" className="text-primary hover:underline">
+                contato@plconf.com
               </a>.
             </p>
           </section>
