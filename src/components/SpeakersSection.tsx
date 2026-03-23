@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
 
 const speakers = [
-  { name: "Ana Ribeiro", role: "VP of Product", company: "Nubank", city: "São Paulo, SP", topic: "Keynote: Liderança em produto na era da IA", initials: "AR" },
-  { name: "Carlos Mendes", role: "CPO", company: "iFood", city: "Osasco, SP", topic: "Product-Led Growth em escala", initials: "CM" },
-  { name: "Juliana Torres", role: "Head of Product", company: "Mercado Livre", city: "São Paulo, SP", topic: "Discovery que gera impacto real", initials: "JT" },
-  { name: "Rafael Costa", role: "Director of PM", company: "VTEX", city: "Rio de Janeiro, RJ", topic: "AI-First Product Strategy", initials: "RC" },
-  { name: "Marina Silva", role: "SVP Product", company: "Globo", city: "Rio de Janeiro, RJ", topic: "De métricas de vaidade a impacto real", initials: "MS" },
-  { name: "Pedro Almeida", role: "CPO", company: "Loft", city: "São Paulo, SP", topic: "De PM a CPO: carreira em produto", initials: "PA" },
+  { name: "À definir", role: "À definir", company: "", city: "", topic: "À definir", initials: "?" },
+  { name: "À definir", role: "À definir", company: "", city: "", topic: "À definir", initials: "?" },
+  { name: "À definir", role: "À definir", company: "", city: "", topic: "À definir", initials: "?" },
+  { name: "À definir", role: "À definir", company: "", city: "", topic: "À definir", initials: "?" },
+  { name: "À definir", role: "À definir", company: "", city: "", topic: "À definir", initials: "?" },
+  { name: "À definir", role: "À definir", company: "", city: "", topic: "À definir", initials: "?" },
 ];
 
 const SpeakersSection = () => {
