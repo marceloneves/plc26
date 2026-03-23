@@ -97,21 +97,6 @@ const BenefitsSection = () => {
           ))}
         </div>
 
-        {/* Agenda Estratégica */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          className="text-center"
-        >
-          <span className="text-primary font-display text-sm font-semibold tracking-widest uppercase mb-4 block">
-            Agenda Estratégica
-          </span>
-          <h2 className="font-display text-4xl md:text-5xl font-bold tracking-tight">
-            OS 3 BLOCOS <span className="text-gradient-gold">DO EVENTO</span>
-          </h2>
-        </motion.div>
       </div>
     </section>
   );
