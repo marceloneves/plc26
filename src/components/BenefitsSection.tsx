@@ -5,38 +5,43 @@ const blocks = [
   {
     number: "1",
     icon: Target,
-    title: "Aquisição de Talentos & Impacto",
-    subtitle: "Construa times de produto de alto desempenho",
+    title: "Estratégia & Decisão de Produto",
+    subtitle: "C-Level Mindset — Tome decisões que movem o negócio",
     items: [
-      "Estratégias de recrutamento e retenção de PMs",
-      "Frameworks de product discovery que geram resultado",
-      "Como medir e comunicar impacto de produto",
+      "Product-Led Growth: conectando produto com receita",
+      "Gestão de portfólio e apostas estratégicas",
+      "Roadmap orientado a outcomes, não features",
+      "Decisões difíceis: matar produto, pivotar, priorizar",
+      "Como PM vira VP/CPO",
     ],
   },
   {
     number: "2",
     icon: Repeat,
-    title: "Entrega e Cultura",
-    subtitle: "Crie processos que escalam com qualidade",
+    title: "Execução em Alta Performance",
+    subtitle: "Times que entregam de verdade — do discurso à prática",
     items: [
-      "Rituais de produto que funcionam de verdade",
-      "Gestão de stakeholders e alinhamento estratégico",
-      "Culture code de times de produto de elite",
+      "Estrutura de times: squads, plataformas e stream-aligned",
+      "Métricas que importam: North Star + KPIs reais",
+      "Redução de lead time e aumento de velocidade",
+      "Discovery contínuo vs. delivery",
+      "Como eliminar reuniões inúteis e aumentar produtividade",
     ],
   },
   {
     number: "3",
     icon: TrendingUp,
-    title: "Escala com Previsibilidade",
-    subtitle: "Cresça sem perder a essência",
+    title: "Liderança, Cultura & Carreira",
+    subtitle: "O lado invisível que diferencia líderes de elite",
     items: [
-      "Product-Led Growth na prática",
-      "Estrutura organizacional para escalar produto",
-      "De PM a CPO: carreira e liderança",
+      "Modelos de liderança em produto (transformacional, servidora)",
+      "Como construir times de alto desempenho",
+      "Gestão de conflitos: tech vs. business vs. design",
+      "Influência sem autoridade",
+      "Carreira: PM → Group PM → Head → CPO",
     ],
   },
 ];
-
 const BenefitsSection = () => {
   return (
     <section id="benefits" className="py-24 md:py-32">

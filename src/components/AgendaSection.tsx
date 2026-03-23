@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const blocks = [
   {
-    label: "BLOCO 1 — FUNDAMENTOS DE LIDERANÇA",
+    label: "BLOCO 1 — ESTRATÉGIA & DECISÃO DE PRODUTO",
     color: "text-primary",
     items: [
       { time: "08:30", title: "Credenciamento", speaker: "Recepção dos participantes" },
@@ -13,7 +13,7 @@ const blocks = [
     ],
   },
   {
-    label: "BLOCO 2 — EXECUÇÃO E ESTRATÉGIA",
+    label: "BLOCO 2 — EXECUÇÃO EM ALTA PERFORMANCE",
     color: "text-accent",
     items: [
       { time: "13:30", title: "À definir", speaker: "À definir" },
@@ -23,7 +23,7 @@ const blocks = [
     ],
   },
   {
-    label: "BLOCO 3 — ESCALA E CARREIRA",
+    label: "BLOCO 3 — LIDERANÇA, CULTURA & CARREIRA",
     color: "text-primary",
     items: [
       { time: "17:00", title: "À definir", speaker: "À definir" },
