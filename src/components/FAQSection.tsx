@@ -33,7 +33,7 @@ const faqs = [
   },
   {
     question: "Qual a política de cancelamento?",
-    answer: "Cancelamentos com reembolso integral podem ser feitos até 30 dias antes do evento. Após esse prazo, é possível transferir o ingresso para outra pessoa.",
+    answer: "Cancelamentos com reembolso integral podem ser feitos até 7 dias após a compra. Após esse prazo, é possível transferir o ingresso para outra pessoa.",
   },
 ];
 
