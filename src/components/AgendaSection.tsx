@@ -51,7 +51,7 @@ const AgendaSection = () => {
             Programação <span className="text-gradient-gold">Completa</span>
           </h2>
           <p className="text-muted-foreground text-lg">
-            O valor muda conforme os lotes avançam. Quem entra antes, paga menos.
+            *Programação sujeita a alterações sem aviso prévio.
           </p>
         </motion.div>
 
