@@ -57,10 +57,10 @@ const CTASection = () => {
             transition={{ duration: 0.4, delay: 0.1 }}
             className="p-6 rounded-2xl bg-card border border-border opacity-60"
           >
-            <h3 className="font-display text-sm font-bold text-muted-foreground uppercase tracking-wider mb-2">Até 30/Mai</h3>
+            <h3 className="font-display text-sm font-bold text-muted-foreground uppercase tracking-wider mb-2">Até 31/Mai</h3>
             <p className="text-xs text-muted-foreground mb-3">Presencial</p>
             <div className="text-4xl font-display font-bold text-foreground mb-1">R$ 447</div>
-            <p className="text-xs text-muted-foreground mb-5">Até 30 de maio de 2026</p>
+            <p className="text-xs text-muted-foreground mb-5">Até 31 de maio de 2026</p>
             <Button variant="outline" className="w-full font-display font-semibold" disabled>
               EM BREVE
             </Button>
