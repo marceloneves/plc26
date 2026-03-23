@@ -77,7 +77,7 @@ const CTASection = () => {
             <h3 className="font-display text-sm font-bold text-muted-foreground uppercase tracking-wider mb-2">Jun – Jul</h3>
             <p className="text-xs text-muted-foreground mb-3">Presencial</p>
             <div className="text-4xl font-display font-bold text-foreground mb-1">R$ 547</div>
-            <p className="text-xs text-muted-foreground mb-5">1 Jun – 30 Jul 2026</p>
+            <p className="text-xs text-muted-foreground mb-5">1 Jun – 31 Jul 2026</p>
             <Button variant="outline" className="w-full font-display font-semibold" disabled>
               EM BREVE
             </Button>
