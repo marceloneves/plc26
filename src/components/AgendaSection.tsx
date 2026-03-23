@@ -13,7 +13,7 @@ const blocks = [
     ],
   },
   {
-    label: "BLOCO 2 — EXECUÇÃO E ESTRATÉGIA",
+    label: "BLOCO 2 — EXECUÇÃO EM ALTA PERFORMANCE",
     color: "text-accent",
     items: [
       { time: "13:30", title: "À definir", speaker: "À definir" },
