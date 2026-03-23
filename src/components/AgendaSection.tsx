@@ -23,7 +23,7 @@ const blocks = [
     ],
   },
   {
-    label: "BLOCO 3 — ESCALA E CARREIRA",
+    label: "BLOCO 3 — LIDERANÇA, CULTURA & CARREIRA",
     color: "text-primary",
     items: [
       { time: "17:00", title: "À definir", speaker: "À definir" },
