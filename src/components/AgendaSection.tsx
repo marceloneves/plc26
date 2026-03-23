@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const blocks = [
   {
-    label: "BLOCO 1 — FUNDAMENTOS DE LIDERANÇA",
+    label: "BLOCO 1 — ESTRATÉGIA & DECISÃO DE PRODUTO",
     color: "text-primary",
     items: [
       { time: "08:30", title: "Credenciamento", speaker: "Recepção dos participantes" },
