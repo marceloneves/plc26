@@ -45,7 +45,7 @@ const SpeakersSection = () => {
               </h3>
               <p className="text-xs text-muted-foreground mb-3">{speaker.city}</p>
               <p className="text-primary font-display font-semibold text-sm mb-1">
-                {speaker.role}, {speaker.company}
+                {speaker.role}{speaker.company ? `, ${speaker.company}` : ""}
               </p>
               <p className="text-muted-foreground text-sm mt-3 pt-3 border-t border-border">
                 {speaker.topic}
