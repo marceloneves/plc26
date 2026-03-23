@@ -37,8 +37,10 @@ const CTASection = () => {
             <p className="text-xs text-muted-foreground mb-3">Presencial</p>
             <div className="text-4xl font-display font-bold text-foreground mb-1">R$ 347</div>
             <p className="text-xs text-muted-foreground mb-5">Apenas 30 ingressos</p>
-            <Button className="w-full bg-gradient-gold text-primary-foreground font-display font-bold hover:opacity-90">
-              COMPRAR AGORA <ArrowRight className="w-4 h-4 ml-1" />
+            <Button asChild className="w-full bg-gradient-gold text-primary-foreground font-display font-bold hover:opacity-90">
+              <a href="https://chk.eduzz.com/8017YOJR07" target="_blank" rel="noopener noreferrer">
+                COMPRAR AGORA <ArrowRight className="w-4 h-4 ml-1" />
+              </a>
             </Button>
             <ul className="mt-4 space-y-2 text-xs text-muted-foreground">
               <li>• Um dia inteiro de conteúdo</li>
