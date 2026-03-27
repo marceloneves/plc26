@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import fotoMarceloNeves from "@/assets/foto-marcelo-neves.webp";
 
 const speakers = [
-  { name: "Marcelo Neves", role: "À definir", company: "Canal Valor", city: "", topic: "À definir", initials: "MN", photo: fotoMarceloNeves },
+  { name: "Marcelo Neves", role: "", company: "Canal Valor", city: "", topic: "Um pioneiro na área de produtos digitais, com mais de 30 anos de experiência no mercado. Atuante e influente, tem sido o Mentor de mais de 1.350 profissionais, capacitando essas pessoas como excelentes Líderes de Produtos Digitais, ou como ele gosta de dizer: Líderes de Produtos Digitais Casca Grossa.", initials: "MN", photo: fotoMarceloNeves },
   { name: "À definir", role: "À definir", company: "", city: "", topic: "À definir", initials: "?" },
   { name: "À definir", role: "À definir", company: "", city: "", topic: "À definir", initials: "?" },
   { name: "À definir", role: "À definir", company: "", city: "", topic: "À definir", initials: "?" },
