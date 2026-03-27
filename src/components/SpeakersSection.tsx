@@ -36,10 +36,14 @@ const SpeakersSection = () => {
               transition={{ duration: 0.5, delay: i * 0.08 }}
               className="group p-6 rounded-2xl bg-card border border-border hover:border-primary/30 transition-all duration-300"
             >
-              <div className="w-20 h-20 rounded-2xl bg-gradient-gold flex items-center justify-center mb-5">
-                <span className="font-display font-bold text-2xl text-primary-foreground">
-                  {speaker.initials}
-                </span>
+              <div className="w-20 h-20 rounded-2xl bg-gradient-gold flex items-center justify-center mb-5 overflow-hidden">
+                {"photo" in speaker && speaker.photo ? (
+                  <img src={speaker.photo} alt={speaker.name} className="w-full h-full object-cover" />
+                ) : (
+                  <span className="font-display font-bold text-2xl text-primary-foreground">
+                    {speaker.initials}
+                  </span>
+                )}
               </div>
               <h3 className="font-display text-xl font-bold text-foreground mb-0.5">
                 {speaker.name}
