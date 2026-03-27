@@ -11,6 +11,12 @@ const speakers = [
 ];
 
 const SpeakersSection = () => {
+  const prioritizedSpeakers = [...speakers].sort((a, b) => {
+    if (a.name === "Marcelo Neves") return -1;
+    if (b.name === "Marcelo Neves") return 1;
+    return 0;
+  });
+
   return (
     <section id="speakers" className="py-24 md:py-32">
       <div className="container mx-auto px-6">
