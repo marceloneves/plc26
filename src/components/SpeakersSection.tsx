@@ -11,6 +11,12 @@ const speakers = [
 ];
 
 const SpeakersSection = () => {
+  const prioritizedSpeakers = [...speakers].sort((a, b) => {
+    if (a.name === "Marcelo Neves") return -1;
+    if (b.name === "Marcelo Neves") return 1;
+    return 0;
+  });
+
   return (
     <section id="speakers" className="py-24 md:py-32">
       <div className="container mx-auto px-6">
@@ -27,7 +33,7 @@ const SpeakersSection = () => {
         </motion.div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {speakers.map((speaker, i) => (
+          {prioritizedSpeakers.map((speaker, i) => (
             <motion.div
               key={`${speaker.name}-${i}`}
               initial={{ opacity: 0, y: 30 }}
