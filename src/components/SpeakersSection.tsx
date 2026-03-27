@@ -33,7 +33,7 @@ const SpeakersSection = () => {
         </motion.div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {speakers.map((speaker, i) => (
+          {prioritizedSpeakers.map((speaker, i) => (
             <motion.div
               key={`${speaker.name}-${i}`}
               initial={{ opacity: 0, y: 30 }}
