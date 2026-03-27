@@ -1,7 +1,8 @@
 import { motion } from "framer-motion";
+import fotoMarceloNeves from "@/assets/foto-marcelo-neves.webp";
 
 const speakers = [
-  { name: "À definir", role: "À definir", company: "", city: "", topic: "À definir", initials: "?" },
+  { name: "Marcelo Neves", role: "À definir", company: "Canal Valor", city: "", topic: "À definir", initials: "MN", photo: fotoMarceloNeves },
   { name: "À definir", role: "À definir", company: "", city: "", topic: "À definir", initials: "?" },
   { name: "À definir", role: "À definir", company: "", city: "", topic: "À definir", initials: "?" },
   { name: "À definir", role: "À definir", company: "", city: "", topic: "À definir", initials: "?" },
