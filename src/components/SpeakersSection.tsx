@@ -29,7 +29,7 @@ const SpeakersSection = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {speakers.map((speaker, i) => (
             <motion.div
-              key={speaker.name}
+              key={`${speaker.name}-${i}`}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -50,7 +50,9 @@ const SpeakersSection = () => {
               </h3>
               <p className="text-xs text-muted-foreground mb-3">{speaker.city}</p>
               <p className="text-primary font-display font-semibold text-sm mb-1">
-                {speaker.role}{speaker.company ? `, ${speaker.company}` : ""}
+                {speaker.role && speaker.company
+                  ? `${speaker.role}, ${speaker.company}`
+                  : speaker.role || speaker.company}
               </p>
               <p className="text-muted-foreground text-sm mt-3 pt-3 border-t border-border">
                 {speaker.topic}
